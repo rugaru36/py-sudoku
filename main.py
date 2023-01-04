@@ -1,7 +1,1 @@
-from game.game_rules import Game_Rule_Manager
-from game.game_control import Game_Process
-
-process = Game_Process()
-# rules = Game_Rule_Manager('mid')
-
-process.run_game_process()
+from game.game_process_manager import Game_Process_Manager
