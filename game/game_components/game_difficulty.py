@@ -1,4 +1,5 @@
 class Game_Difficulty:
+    # diff_lvl: easy | mid | hard
     def __init__(self, diff_lvl) -> None:
         self._init_diff_data()
         self._init_tries = 0
