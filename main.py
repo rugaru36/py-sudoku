@@ -1,5 +1,5 @@
-from game.game_process_manager import GameProcessManager
+from game.GameProcessManager import GameProcessManager
 
 process = GameProcessManager('mid')
 
-process.show_field()
+process.show()
